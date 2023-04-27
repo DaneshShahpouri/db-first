@@ -1,0 +1,41 @@
+Concessionario
+
+Auto Usate:
+
+
+ID - SMALLINT - Primary key, UNIQUE, AUTO_INCREMENT, NOT_NULL
+
+car_model -  VARCHAR(255) - NOT_NULL
+
+car_supply - VARCHAR(100) - NOT_NULL
+
+car_manufacturer - VARCHAR(255) - NOT_NULL
+
+car_years - YEAR - NOT_NULL
+
+car_current_km - MEDIUMINT - NOT_NULL
+
+
+
+previous_car_owner_id - UNIQE, NULL
+
+previous_car_owner_name - VARCHAR(255) - NULL
+
+previous_car_owner_surname - VARCHAR(255) - NULL
+
+previous_car_owner_phone_numb - VARCHAR(10) - NULL
+
+previous_car_owner_address - VARCHAR(255) - NULL
+
+
+purchase_data - DATA, NOT_NULL
+
+purchase_data-time - TIME, NULL
+
+sales_data - DATA, NULL
+
+sales_data_time - TIME, NULL
+
+price - DOUBLE(12,2)
+
+
